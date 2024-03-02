@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Page](README.md)
+* [🤓 Welcome to K8SUG CTL](README.md)
