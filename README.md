@@ -11,3 +11,13 @@ description: Connect, Train and Learn Kubernetes
 $ kubectl run ngnix
 ```
 {% endcode %}
+
+### Setting up a cloud account provider
+
+* Microsoft Azure
+* Amazon AWS
+* Google GCP
+* Oracle
+* IBM
+* Digital Ocean
+* VPS
