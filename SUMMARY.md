@@ -4,7 +4,8 @@
 
 ## ☁️ Setting Cloud Provider Account
 
-* [Cloud Providers](setting-cloud-provider-account/cloud-providers.md)
+* [Cloud Providers](setting-cloud-provider-account/cloud-providers/README.md)
+  * [Digital Ocean](setting-cloud-provider-account/cloud-providers/digital-ocean.md)
 
 ## 💻 Running Kubernetes on Local Host
 
