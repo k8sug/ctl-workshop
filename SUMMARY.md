@@ -1,6 +1,8 @@
 # Table of contents
 
 * [🤓 Welcome to K8SUG CTL](README.md)
+  * [Upgrading from 1.27.2 to 1.27.11](readme/upgrading-from-1.27.2-to-1.27.11.md)
+* [Page](page.md)
 
 ## ☁️ Setting Cloud Provider Account
 
