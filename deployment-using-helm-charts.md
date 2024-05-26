@@ -4,7 +4,7 @@
 
 Helm is often referred to as the 'app store' for Kubernetes, offering a powerful and flexible way to manage Kubernetes applications. Helm Charts help you define, install, and upgrade even the most complex Kubernetes application, streamlining the deployment process.
 
-## **Kubernetes Deployment (Helm Chart):**
+## **Application Deployment (Helm Chart):**
 
 The Helm Chart defines how the application is deployed onto a Kubernetes cluster:
 
