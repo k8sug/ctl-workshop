@@ -24,7 +24,7 @@ This application follows a microservices architecture with two main components:
 3. Backend receives the request, processes the input using the LLM, generates a response, and returns the response as JSON along with pod/node metadata.
 4. Frontend receives the response, updates the chat history, and renders the updated chat interface with the new message.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>kubernetes application diagram</p></figcaption></figure>
 
 * **Kubernetes Cluster:**
   * **Master Node (Control Plane):** Include components like the API server, scheduler, and controller manager.
@@ -40,11 +40,11 @@ This application follows a microservices architecture with two main components:
 
 ## &#x20;LLM Model - GODEL 1.1&#x20;
 
-<figure><img src=".gitbook/assets/image (19).png" alt=""><figcaption><p>GODEL (<strong>G</strong>rounded <strong>O</strong>pen <strong>D</strong>ialogu<strong>e</strong> <strong>L</strong>anguage Model), a large <strong>open-source</strong> pre-trained language model for dialog. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (19).png" alt=""><figcaption><p>GODEL (<strong>G</strong>rounded <strong>O</strong>pen <strong>D</strong>ialogu<strong>e</strong> <strong>L</strong>anguage Model), a large <strong>open-source,</strong> pre-trained language model for dialogue. </p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
-It is parameterized with a Transformer-based encoder-decoder model and trained for response generation grounded in external text, which allows more effective fine-tuning on dialog tasks that require conditioning the response on information that is external to the current conversation (e.g., a retrieved document). The pre-trained model can be efficiently fine-tuned and adapted to accomplish a new dialog task with a handful of task-specific dialogs.
+It is parameterized with a Transformer-based encoder-decoder model and trained for response generation grounded in external text, which allows more effective fine-tuning on dialogue tasks that require conditioning the response on information that is external to the current conversation (e.g., a retrieved document). The pre-trained model can be efficiently fine-tuned and adapted to accomplish a new dialogues task with a handful of task-specific dialogues.
 
 > @misc{\
 > peng2022godel, \

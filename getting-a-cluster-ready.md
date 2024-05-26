@@ -21,9 +21,9 @@ Also totally free, with limitaion to 4 hours per session. It make avaible up to 
 
 {% embed url="https://azure.microsoft.com/en-us/free" %}
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-
 <figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 User a existing Microsoft/Hotmail/Skype/Github account or create a new one.
 
