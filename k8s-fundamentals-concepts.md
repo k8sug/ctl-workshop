@@ -1,4 +1,4 @@
-# K8S - Fundamentals Concepts
+# ⚒️ K8S: Fundamentals Concepts
 
 
 

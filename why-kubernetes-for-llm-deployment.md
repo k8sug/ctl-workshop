@@ -1,4 +1,4 @@
-# Why Kubernetes for LLM Deployment?
+# ☁️ Why Kubernetes for LLM Deployment?
 
 ## What is LLM?
 

@@ -1,4 +1,17 @@
-# Using Helm Charts
+# 🚀 Deployment Using Helm Charts
+
+## **Kubernetes Deployment (Helm Chart):**
+
+The Helm Chart defines how the application is deployed onto a Kubernetes cluster:
+
+* **Deployments:** Creates two separate Deployments, one for the backend and one for the frontend. Each Deployment manages the scaling (number of replicas) and updates of the respective components.
+* **Services:**
+  * Creates a `ClusterIP` service for the backend, accessible internally within the cluster.
+  * Creates a `NodePort` service for the frontend, making it accessible outside the cluster via a specific port on each node.
+  * Creates an additional `LoadBalancer` service for the frontend if needed to expose it through a cloud provider's load balancer.
+* **ConfigMap:** Stores configuration values for the LLM (instruction, knowledge base, parameters), allowing easy updates without changing the application code.
+
+## Hands-On&#x20;
 
 On the terminal of your cluster/master node, check if you have HELM installed.
 

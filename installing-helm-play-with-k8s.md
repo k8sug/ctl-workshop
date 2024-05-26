@@ -2,7 +2,7 @@
 description: This is only if using Play-With-K8s
 ---
 
-# Installing HELM (play-with-k8s)
+# 💿 Installing HELM (play-with-k8s)
 
 ## What is helm?
 
@@ -11,8 +11,6 @@ Helm is often referred to as the 'app store' for Kubernetes, offering a powerful
 {% hint style="info" %}
 Learn more about Helm: [https://helm.sh/](https://helm.sh/)
 {% endhint %}
-
-
 
 We are using Play-With-Kubernetes on CentOS and running Kubernetes v1.27.2
 

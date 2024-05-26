@@ -1,4 +1,4 @@
-# Getting a Cluster Ready
+# 🎡 Getting a Cluster Ready
 
 ## Options Available:
 
