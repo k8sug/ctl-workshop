@@ -24,7 +24,7 @@ This application follows a microservices architecture with two main components:
 3. Backend receives the request, processes the input using the LLM, generates a response, and returns the response as JSON along with pod/node metadata.
 4. Frontend receives the response, updates the chat history, and renders the updated chat interface with the new message.
 
-<figure><img src=".gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 * **Kubernetes Cluster:**
   * **Master Node (Control Plane):** Include components like the API server, scheduler, and controller manager.
