@@ -1,5 +1,9 @@
 # 🚀 Deployment Using Helm Charts
 
+## What is helm? <a href="#what-is-helm" id="what-is-helm"></a>
+
+Helm is often referred to as the 'app store' for Kubernetes, offering a powerful and flexible way to manage Kubernetes applications. Helm Charts help you define, install, and upgrade even the most complex Kubernetes application, streamlining the deployment process.
+
 ## **Kubernetes Deployment (Helm Chart):**
 
 The Helm Chart defines how the application is deployed onto a Kubernetes cluster:
@@ -73,6 +77,14 @@ helm install test .
 {% endtab %}
 {% endtabs %}
 
-That is it! You deployed the an LLM model as a Backend API , a Chatbot  as Frontend IU and the necessary services to connect them!
+That is it!&#x20;
+
+You've successfully deployed the LLM model as a Backend API that utilizes variables from a ConfigMap, along with a chat interface as the Frontend UI. Additionally, you've set up all the necessary services to link these components together!
+
+```
+kubectl get all,configmap 
+```
+
+<figure><img src=".gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
 Lets now test it and do some exercises!
