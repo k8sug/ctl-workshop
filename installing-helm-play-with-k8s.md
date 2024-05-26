@@ -1,4 +1,8 @@
-# Installing HELM
+---
+description: This is only if using Play-With-K8s
+---
+
+# Installing HELM (play-with-k8s)
 
 ## What is helm?
 
