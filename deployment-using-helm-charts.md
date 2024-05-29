@@ -44,18 +44,8 @@ helm search repo k8sug
 <figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
 {% tabs %}
-{% tab title="INSTALL" %}
-You may name the **release** as you want:
-
-```
-helm install name-release k8sug-ai/k8sug-chatbot
-```
-
-<figure><img src=".gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-
 {% tab title="PULL and INSTALL" %}
-If we want to change the default values we need to pull it.\
+We may want to change the default values, so we need to pull it.\
 Copy the package, unzip and navigate to its folder
 
 ```
@@ -67,6 +57,10 @@ cd k8sug-chatbot
 
 We can make changes to the `values.yaml` before installing it.&#x20;
 
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Using an Editor on Killercoda</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Using VI/VIM</p></figcaption></figure>
+
 Then install it:
 
 ```
@@ -74,6 +68,16 @@ helm install test .
 ```
 
 <figure><img src=".gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Just Install" %}
+You may name the **release** as you want:
+
+```
+helm install name-release k8sug-ai/k8sug-chatbot
+```
+
+<figure><img src=".gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 

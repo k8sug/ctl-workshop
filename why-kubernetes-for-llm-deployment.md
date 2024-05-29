@@ -4,7 +4,7 @@
 
 Large Language Models (LLMs) like GPT have ushered in a new era of artificial intelligence (AI). These models, trained on massive datasets, can generate remarkably human-like text, translate languages, create content, and answer complex questions. Their potential applications span industries, from customer service and content creation to healthcare and education.
 
-<figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Why Kubernetes for LLM Deployment?**
 
