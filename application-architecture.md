@@ -1,5 +1,11 @@
 # 🏗️ Application Architecture
 
+{% hint style="info" %}
+Check codes on
+
+[https://github.com/k8sug/ctl-01-workshop-codes](https://github.com/k8sug/ctl-01-workshop-codes)
+{% endhint %}
+
 ## **Overall Architecture:**
 
 This application follows a microservices architecture with two main components:
