@@ -1,6 +1,6 @@
 # ⏭️ Final Considerations
 
-We are thrilled to have you join us for this inaugural edition of  **K8SUG CTL: Hands-On Workshop for Deployment LLM on K8S**. Your participation today is a significant step towards mastering the deployment and management of AI applications using Kubernetes.
+We are thrilled to have you join us for this inaugural edition of  **K8SUG CTL: Hands-On Workshop for LLM Deployment on K8S**. Your participation today is a significant step towards mastering the deployment and management of AI applications using Kubernetes.
 
 As we wrap up, here are a few key takeaways and what you can look forward to in our future sessions:
 
@@ -18,9 +18,9 @@ Next time, we will explore advanced tools and platforms that leverage Kubernetes
 *   #### What is Kubeflow?
 
     The **Kubeflow** project is dedicated to making deployments of machine learning (ML) workflows on Kubernetes simple, portable, and scalable. Its goal is not to recreate other services, but to provide a straightforward way to deploy best-of-breed open-source systems for ML to diverse infrastructures. Anywhere you are running Kubernetes, you should be able to run Kubeflow.
-* What is MLflow?\
+* **What is MLflow?**\
   MLflow is a solution to many of these issues in this dynamic landscape, offering tools and simplifying processes to streamline the ML lifecycle and foster collaboration among ML practitioners.
-* What is DoEKS?\
+* **What is DoEKS?**\
   **Data on Amazon EKS (DoEKS)** is a comprehensive toolset and framework designed to facilitate the building of scalable, efficient, and managed data platforms on Amazon Elastic Kubernetes Service (EKS). It provides a robust infrastructure that integrates various open-source data tools and AWS managed services, enabling users to deploy and manage data solutions effectively.
 
 #### Additional Note:
