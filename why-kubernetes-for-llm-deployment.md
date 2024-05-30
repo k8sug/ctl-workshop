@@ -11,7 +11,7 @@ Large Language Models (LLMs) like GPT have ushered in a new era of artificial in
 The computational demands of LLMs are immense. Kubernetes, the industry-standard container orchestration platform, is uniquely suited to address these challenges:
 
 * **Scalability:** Kubernetes allows you to easily scale LLM deployments up or down to meet fluctuating demand.
-* **Resource Efficiency:** Kubernetes optimizes resource allocation (CPUs, GPUs, memory) to ensure efficient utilisation.
+* **Resource Efficiency:** Kubernetes optimises resource allocation (CPUs, GPUs, memory) to ensure efficient utilisation.
 * **Fault Tolerance:** Kubernetes automatically restarts failed containers, ensuring high availability.
 * **Flexibility:** Kubernetes works seamlessly with cloud providers and on-premise infrastructure.
 
@@ -20,6 +20,6 @@ The computational demands of LLMs are immense. Kubernetes, the industry-standard
 * **Model Size:** LLMs can be massive. Choose a model size that balances performance and resource requirements.
 * **Hardware Acceleration:** GPUs (or specialised AI accelerators) are essential for accelerating inference and training.
 * **Serving Infrastructure:** Choose a serving framework that optimises LLM performance.
-* **Monitoring and Optimisation:** Continuously monitor and fine-tune your LLM deployment for optimal performance and cost-effectiveness.pen\_spark
+* **Monitoring and Optimisation:** Continuously monitor and fine-tune your LLM deployment for optimal performance and cost-effectiveness.
 
 ##

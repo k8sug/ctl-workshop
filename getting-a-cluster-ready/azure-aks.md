@@ -8,7 +8,7 @@
 
 <figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-User a existing Microsoft/Hotmail/Skype/Github account or create a new one
+Use an existing Microsoft/Hotmail/Skype/Github account or create a new one
 
 <figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -22,7 +22,7 @@ You will need a credit or debit card.
 
 ## Access Azure Portal
 
-After signup you will be redirect to portal.azure.com
+After signing up, you will be redirected to portal.azure.com
 
 {% embed url="https://portal.azure.com/#home" %}
 

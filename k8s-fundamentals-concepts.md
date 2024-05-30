@@ -2,17 +2,17 @@
 
 ## What Kubernetes is?
 
-Kubernetes effectively acts as a "Cloud Operating System" for distributed systems or applications running on a cluster of physical or virtual machines, specifically designed to manage large groups of containerized applications.
+Kubernetes effectively acts as a "Cloud Operating System" for distributed systems or applications running on a cluster of physical or virtual machines, specifically designed to manage large groups of containerised applications.
 
 ## What Kubernetes does?
 
-**Abstraction:** Kubernetes creates a unified interface for applications, shielding them from the underlying infrastructure complexities. Whether apps run on physical servers on primise, virtual machines in the cloud, or a mix of both, Kubernetes provides a consistent environment. This makes it easier to move and scale apps.
+**Abstraction:** Kubernetes creates a unified interface for applications, shielding them from the underlying infrastructure complexities. Whether apps run on physical servers on premise, virtual machines in the cloud, or a mix of both, Kubernetes provides a consistent environment. This makes it easier to move and scale apps.
 
 **API-Driven Interaction:** Everything in Kubernetes is controlled through its API. This makes it easy to integrate with your existing IT tools and workflows. You can use command-line tools, graphical interfaces, or even write scripts to automate tasks and interact with a Kubernetes environment.
 
 **Orchestration:** Kubernetes automates the entire lifecycle of applications – from deployment and scaling to updates and self-healing. It monitors the health of applications and infrastructure, restarting or replacing components as needed to keep everything running smoothly.
 
-**Resource Management:** Kubernetes acts like a traffic controller, dynamically allocating resources like CPU, memory, and storage to applications. It optimizes the utilization of infrastructure, ensuring  apps get the resources they need while preventing resource waste.
+**Resource Management:** Kubernetes acts like a traffic controller, dynamically allocating resources like CPU, memory, and storage to applications. It optimizes the utilisation of infrastructure, ensuring  apps get the resources they need while preventing resource waste.
 
 ## Main Components of a Kubernetes Cluster
 
@@ -42,13 +42,13 @@ Kubernetes effectively acts as a "Cloud Operating System" for distributed system
 2. **Nodes**:
    * These are the worker machines within a Kubernetes cluster, which can be either physical or virtual systems.
 3. **Clusters**:
-   * Comprises a group of nodes that work together to run containerized applications. Kubernetes manages these applications across the cluster.
+   * Comprises a group of nodes that work together to run containerised applications. Kubernetes manages these applications across the cluster.
 4. **Services**:
    * A Service in Kubernetes defines a logical set of Pods and a policy by which to access them, often through a stable IP address.
 5. **Deployments**:
    * Manage the desired state of Pods declaratively, facilitating updates and scaling for applications.
 6. **Namespaces**:
-   * Virtual clusters within the same physical cluster, Namespaces are used to divide cluster resources between multiple users.
+   * Virtual clusters within the same physical cluster, Namespaces are used to divide cluster resources among multiple users.
 7. **ConfigMaps and Secrets**:
    * ConfigMaps handle non-confidential configuration data, whereas Secrets manage sensitive information. Both separate configuration from application code.
 8. **Persistent Volumes**:

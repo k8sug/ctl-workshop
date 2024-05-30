@@ -20,7 +20,7 @@ This application follows a microservices architecture with two main components:
    * Uses `requests` for sending HTTP requests to the backend and `Flask` for the web framework.
    * Sends user input to the backend's `/chat` endpoint and displays the response.
    * Uses Flask for the web server and Jinja2 for templating the chat interface.
-   * Maintains chat history using server-side sessions to maintain chat history.
+   * Maintains chat history using server-side sessions.
    * Indicates from what backend Pod the response came from
 
 ### **Interaction Flow:**

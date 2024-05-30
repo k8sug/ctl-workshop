@@ -4,7 +4,7 @@
 
 ### [Azure](azure-accessing-the-ui-frontend.md)
 
-### [Kiilercoda](killercoda-accessing-the-ui-frontend.md)
+### [Killercoda](killercoda-accessing-the-ui-frontend.md)
 
 ## [2:  Configuration Update](configuration-update.md)
 

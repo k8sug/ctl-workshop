@@ -16,7 +16,7 @@ You can click and reduce the slide menu.&#x20;
 
 <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
-And if you click in Editor, it will provide an VSCode like enviroment.
+And if you click in Editor, it will provide a VSCode like environment.
 
 <figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
