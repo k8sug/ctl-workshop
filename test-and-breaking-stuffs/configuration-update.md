@@ -4,7 +4,7 @@ description: 'Objective: Update application configuration using ConfigMaps.'
 
 # ⬆️ Configuration Update
 
-### First lets check the pod logs
+### First, lets check the pod logs
 
 Copy  the pod name from the UI
 
@@ -31,7 +31,7 @@ helm show values k8sug-ai/k8sug-chatbot > values.yaml
 Once saved, upgrade using this command:
 
 ```
-helm upgrade test-breaking-stuffs k8sug-ai/k8sug-chatbot --values ./values.yaml
+helm upgrade <release-name> k8sug-ai/k8sug-chatbot --values ./values.yaml
 ```
 
 **Pros:**
